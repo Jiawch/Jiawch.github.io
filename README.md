@@ -1,4 +1,4 @@
-# Singing Demos for "XiaoiceSing2
+# Singing Demos for "XiaoiceSing2"
 
 Authors: Jiawei Chen, Xu Tan, Jian Luan
 
