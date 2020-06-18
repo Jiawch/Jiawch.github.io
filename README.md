@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+# Singing Demos for "XiaoiceSing: A High-Quality and Integrated Singing Voice Synthesis System"
 
-You can use the [editor on GitHub](https://github.com/Jiawch/Jiawch.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Authors: Peiling Lu, Jie Wu, Jian Luan, Xu Tan, Li Zhou 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Abstract: This paper presents XiaoiceSing, a high-quality singing voice synthesis system which employs an integrated network for spectrum, F0 and duration modeling. We follow the main architecture of FastSpeech while proposing some singing-specific design: 1) Besides phoneme ID and position encoding, features from musical score (e.g.note pitch and length) are also added. 2) To attenuate off-key issues, we add a residual connection in F0 prediction. 3) In addition to the duration loss of each phoneme, the duration of all the phonemes in a musical note is accumulated to calculate the syllable duration loss for rhythm enhancement. Experiment results show that XiaoiceSing outperforms the baseline system of convolutional neural networks by 1.44 MOS on sound quality, 1.18 on pronunciation accuracy and 1.38 on naturalness respectively. In two A/B tests, the proposed F0 and duration modeling methods achieve 97.3% and 84.3% preference rate over baseline respectively, which demonstrates the overwhelming advantages of XiaoiceSing.
 
-### Markdown
+---
+Below is the subjective evaluation samples for our Interspeech2020 paper.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Note: Please ensure your web browser supports wav audio format. You can choose Microsoft Edge, Google Chrome, Firefox, Opera and Safari.
 
-```markdown
-Syntax highlighted code block
+## Demo
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Jiawch/Jiawch.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
